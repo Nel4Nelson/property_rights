@@ -7,12 +7,12 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC5BllAvyNiBp3xW9mABUQvhI-6rsQHyhY",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "private-properties-2501c.firebaseapp.com",
-  projectId: "private-properties-2501c",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECTID,
   storageBucket: "private-properties-2501c.appspot.com",
   messagingSenderId: "1063276948464",
-  appId: "1:1063276948464:web:5928967c3eb78cd2a90b35",
+  appId: import.meta.env.VITE_FIREBASE_APPID,
   measurementId: "G-1GG20TERXR"
 };
 
