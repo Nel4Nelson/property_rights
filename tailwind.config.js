@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -51,6 +52,10 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        custom: {
+          "white_200": "hsl(var(--white-200))",
+          "brown_200": "hsl(var(--brown-200))",
+        }
       },
       borderRadius: {
         lg: "var(--radius)",

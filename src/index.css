@@ -33,6 +33,10 @@
       --ring: 222.2 84% 4.9%;
 
       --radius: 0.5rem;
+
+
+      --white-200: 45, 18%, 96%;
+      --brown-200: 345, 6%, 13%;
     }
 
     .dark {
@@ -73,4 +77,8 @@
     body {
       @apply bg-background text-foreground;
     }
+  }
+
+  .colors {
+    color: hsl(45, 18%, 96%);
   }
