@@ -77,10 +77,10 @@ const RegisterPage = () => {
 
   return (
     <div className="h-dvh flex justify-center items-center font-bodyFont bg-custom-white_200">
-      <Card className="mx-4 grid w-[400px] lg:w-[500px] xl:mx-auto shadow-md">
+      <Card className="mx-4 grid w-[400px] lg:w-[500px] xl:mx-auto shadow-xl">
         <Toaster />
         <CardHeader className="text-center">
-          <CardTitle className="text-xl font-headingFont">Sign Up</CardTitle>
+          <CardTitle className="text-xl font-headingFont">Create an account</CardTitle>
           <CardDescription>
             Enter your information to create an account
           </CardDescription>
