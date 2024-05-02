@@ -8,6 +8,11 @@ const NavBar = () => {
   return (
     <>
       <header className="flex justify-between h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px]">
+        <img
+          className=" h-[50px] lg:hidden"
+          src={Logo}
+          alt="Property Rights Logo"
+        />
         <Sheet>
           <SheetTrigger asChild>
             <Button
