@@ -1,8 +1,11 @@
 import SideBar from "./SideBar";
-import { Outlet } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 import NavBar from "./NavBar";
+import useAuth from "@/hooks/useAuth";
 
 const ProtectedLayout = () => {
+  const { user } = useAuth();
+  if (!user) return <Navigate to="/login" />;
   return (
     <div className="grid min-h-screen w-full md:grid-cols-[50px_1fr_50px] lg:grid-cols-[100px_1fr_100px]">
       <SideBar />

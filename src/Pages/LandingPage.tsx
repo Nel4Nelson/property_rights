@@ -57,7 +57,7 @@ const LandingPage = () => {
         <h2 className="text-center font-headingFont font-semibold">
           Frequently asked questions
         </h2>
-        <Accordion type="single" collapsible className="lg:w-[600px]">
+        <Accordion type="single" collapsible className=" w-[300px] lg:w-[600px]">
           <AccordionItem value="item-1">
             <AccordionTrigger>What do Property rights do?</AccordionTrigger>
             <AccordionContent>
@@ -70,7 +70,7 @@ const LandingPage = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Where is Property rights company located?
             </AccordionTrigger>
             <AccordionContent>
