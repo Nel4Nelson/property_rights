@@ -55,7 +55,11 @@ module.exports = {
         custom: {
           "white_200": "hsl(var(--white-200))",
           "brown_200": "hsl(var(--brown-200))",
+          "yellow_200": "hsl(var(--yellow-200))",
         }
+      },
+      fontFamily: {
+        headingFont: '"Playfair Display", serif',
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,3 +84,4 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
+
