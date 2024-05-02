@@ -46,7 +46,7 @@ const LandingPage = () => {
       <Card className="rounded-none h-[130px] bg-custom-brown_200">
         <CardContent className="flex h-full justify-center items-center">
           <div className="flex flex-col items-center justify-center gap-1">
-            <h1 className="text-xl font-headingFont text-white">
+            <h1 className="text-base lg:text-xl font-headingFont text-white">
               Lodge a complain about your property
             </h1>
             <Button className="bg-custom-yellow_200">Submit a Complain</Button>
